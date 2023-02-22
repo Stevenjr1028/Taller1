@@ -16,14 +16,14 @@ const SegundosAHoras =()=> {
   }
 
   const handleSegundosChange = (evt) => {
-    setSegundo (evt.target.value )
+    setSegundo (evt.target.value );
   }
 
  
 
     return (
       <div>
-        <h1> Conversor de Segundos a: Horas, Minutos y Segundos </h1>
+        <h2> Conversor de Segundos a: Horas, Minutos y Segundos </h2>
         <label htmlFor="segundos">Ingrese los segundos:</label>
         <input
           type="number"
