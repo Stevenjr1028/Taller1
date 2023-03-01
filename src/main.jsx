@@ -7,6 +7,7 @@ import Greeting from './Components/Saludo'
 import SameNumberCounter from './Components/3Numeros'
 import NumberList from './Components/lista-ordenada'
 import ImparesMenores from './Components/menorimpar'
+import AumentoSalario from './Components/10salarios'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -17,5 +18,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <SameNumberCounter/>
     <NumberList/>
     <ImparesMenores/>
+    <AumentoSalario/>
   </React.StrictMode>,
 )
