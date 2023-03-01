@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function DivisionArreglo() {
+const DivisionArreglo=()=> {
   const [numeros, setNumeros] = useState(Array.from({ length: 10 }, () => Math.floor(Math.random() * 100)));
   const [indice, setIndice] = useState('');
   const [resultados, setResultados] = useState([]);

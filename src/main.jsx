@@ -9,6 +9,7 @@ import NumberList from './Components/lista-ordenada'
 import ImparesMenores from './Components/menorimpar'
 import AumentoSalario from './Components/10salarios'
 import DivisionArreglo from './Components/10arreglos'
+import Tabla from './Components/tabla'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -21,5 +22,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ImparesMenores/>
     <AumentoSalario/>
     <DivisionArreglo/>
+    <Tabla/>
   </React.StrictMode>,
 )
