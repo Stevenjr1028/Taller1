@@ -6,6 +6,7 @@ import CallCostCalculator from './Components/Llamada'
 import Greeting from './Components/Saludo'
 import SameNumberCounter from './Components/3Numeros'
 import NumberList from './Components/lista-ordenada'
+import ImparesMenores from './Components/menorimpar'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,5 +16,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Greeting />
     <SameNumberCounter/>
     <NumberList/>
+    <ImparesMenores/>
   </React.StrictMode>,
 )
