@@ -24,6 +24,7 @@ const AumentoSalario=()=> {
 
   return (
     <div>
+         <h2>Aumento de Salarios en un 8%</h2>
       {[...Array(10)].map((_, index) => (
         <div key={index}>
           <label>Ingrese salario {index + 1}:</label>
