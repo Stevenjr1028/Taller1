@@ -4,6 +4,7 @@ import './index.css'
 import SegundosAHoras from './hora'
 import CallCostCalculator from './Llamada'
 import Greeting from './Saludo'
+import SameNumberCounter from './3Numeros'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -11,5 +12,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <SegundosAHoras />
     <CallCostCalculator />
     <Greeting />
+    <SameNumberCounter/>
   </React.StrictMode>,
 )
